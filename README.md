@@ -2,7 +2,7 @@ This is a NUI grass override tool for working with https://lexicon.nwn.wiki/inde
 
 It allows you to quickly test the grass override on your areas to select the ones that work best for your area and even persist it using a simple system I provided in the module.
 
-https://media.discordapp.net/attachments/1260966732843978833/1261320925920497794/image.png?ex=66928826&is=669136a6&hm=15446bca0643eef694c79a7181d08d18db8b05ac5c674d6f5be3c91dc87d3c9a&=&width=1930&height=1646![image](https://github.com/user-attachments/assets/7e284ced-7ba9-4067-a27c-a937995d6b55)
+https://media.discordapp.net/attachments/1260966732843978833/1261320925920497794/image.png
 
 For demonstration purposes, there is a small video https://youtu.be/bp5tiHp-c0k 
 
