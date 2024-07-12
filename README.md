@@ -74,3 +74,47 @@ json GetTextureAndLabelByNumber(int nNumber)
     return jResult;
 }
 ```
+
+
+## Some Technical Notes
+
+### Overview
+
+This tool is designed to allow users to test and apply different grass textures in their areas using the NUI (Neverwinter Nights User Interface). The core functionalities include selecting textures, applying them to specific materials, and encoding/decoding grass override parameters for persistence.
+
+### Key Functions
+
+1. **GetTextureAndLabelByNumber**: This function returns the texture model name and its corresponding label based on the provided number. It utilizes a `switch` statement to map numbers to specific textures and labels.
+
+2. **GetTextureExist**: This function checks if a given texture number corresponds to a valid texture by ensuring the texture name is not empty or "unknown".
+
+3. **CleanAllOverrides**: This function iterates through all material types and removes grass overrides for the specified player character's area.
+
+4. **SendCDFloatingMessage**: Sends a floating text message to the player character, ensuring messages are not spammed by implementing a cooldown.
+
+5. **GetJsonColorFromVector** and **GetColorVectorFromJson**: These functions convert between JSON color objects and vector representations of colors.
+
+6. **EncodeGrassOverrideParameters**: Encodes grass override parameters (texture, density, height, ambient color, diffuse color) into a single string for storage.
+
+7. **ApplyGrassOverride**: Applies the grass override to the area based on the selected or specified texture, material, density, height, and colors.
+
+8. **RunGrassOverrideFromEncodedString**: Decodes an encoded string of grass override parameters and applies them to the area.
+
+9. **RestoreAndSaveMaterialSelection**: Restores saved grass override settings for a specified material in an area and applies them using the encoded parameters.
+
+10. **PopulateGrassTextureList**: Generates a JSON array of grass textures available for selection in the NUI.
+
+11. **PopulateMaterialsList**: Generates a JSON array of materials available for selection in the NUI.
+
+12. **MakeGrassTestingWindow**: Creates the NUI window for testing and applying grass overrides, including all UI elements such as text inputs, sliders, and buttons.
+
+13. **RestoreGrasOverrideInSingleArea** and **RestoreAllGrassOverrides**: Functions to restore grass overrides for single or all areas based on stored parameters.
+
+### Example Usage
+
+- To apply a grass override, a player would use the NUI window to select a texture, material, and adjust density and height sliders.
+- The settings are encoded into a string and stored as a local variable on the area.
+- On module load or area transition, the grass overrides can be restored using the encoded parameters.
+
+This tool is highly customizable and designed to work seamlessly with the existing Neverwinter Nights engine and custom modules.
+
