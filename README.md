@@ -12,6 +12,7 @@ If you have issues using it, go to NWN Developers Discord (https://discord.gg/zH
 
 Adaptation guide:
 The most important thing is to customize the list of all grass textures that you have. This customization is done in sl_s_grass_inc:
+
 <img width="671" alt="image" src="https://github.com/user-attachments/assets/77bab968-738a-489b-9652-9bbea58b0bcb">
 
 You need to know your textures or search for them in your haks. 
