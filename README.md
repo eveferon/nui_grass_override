@@ -76,7 +76,7 @@ json GetTextureAndLabelByNumber(int nNumber)
 ```
 
 
-## Some Technical Notes
+## Some Technical Notes by ChatGPT
 
 ### Overview
 
