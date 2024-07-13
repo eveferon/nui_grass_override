@@ -4,7 +4,7 @@ This is a NUI grass override tool for working with [SetAreaGrassOverride](https:
 
 It allows you to quickly test the grass override on your areas to select the ones that work best for your area and even persist it using a simple system provided in the module.
 
-![Example](https://github.com/user-attachments/assets/e2c33bc1-f7af-46ca-9947-d70ead2fd101)
+![image](https://github.com/user-attachments/assets/0ebb9690-7bd7-40ff-9931-d0536b427f0c)
 
 For demonstration purposes, there is a small video: [https://youtu.be/bp5tiHp-c0k](https://youtu.be/bp5tiHp-c0k).
 
