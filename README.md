@@ -74,6 +74,11 @@ json GetTextureAndLabelByNumber(int nNumber)
     return jResult;
 }
 ```
+## Example of persistence on Area
+
+Add string variables on the area like this (in this example grass (3) stone(4) and water (6) are overriden
+
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/c5d90546-917d-4663-ad6c-084813cf9b9d">
 
 
 ## Some Technical Notes by ChatGPT
